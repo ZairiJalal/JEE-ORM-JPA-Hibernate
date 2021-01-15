@@ -1,4 +1,4 @@
-<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>  
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %> 
 <!DOCTYPE html>
 <html>
 <head>
@@ -26,7 +26,7 @@
                      <th scope="col">ID</th>
                      <th scope="col">Nom</th>
                      <th scope="col">Auteur</th>
-                     <th scope="col">Prix</th>
+                     <th scope="col">Prix(DH)</th>
                      <th scope="col">Quantité</th>
                      <th scope="col">Modifier</th>
                      <th scope="col">Supprimer</th>
@@ -69,7 +69,7 @@
                 <input type="text" class="form-control disabled" id="delAuteur" name="auteur" value="${l.auteur}" readonly >
              </div>
              <div class="form-group">
-                <label for="delPrix">Le prix</label>
+                <label for="delPrix">Le prix(DH)</label>
                 <input type="text" class="form-control disabled" id="delPrix" name="prix" value="${l.prix}" readonly >
              </div>
              <div class="form-group">
@@ -108,7 +108,7 @@
                 <input type="text" class="form-control" id="editAuteur" name="auteur" value="${l.auteur}"  >
              </div>
              <div class="form-group">
-                <label for="editPrix">Le prix</label>
+                <label for="editPrix">Le prix(DH)</label>
                 <input type="text" class="form-control" id="editPrix" name="prix" value="${l.prix}"  >
              </div>
              <div class="form-group">
@@ -148,7 +148,7 @@
                    <input type="text" class="form-control" id="addAuteur" name="auteur"   placeholder="L'auteur">
                 </div>
                 <div class="form-group">
-                   <label for="addPrix">Le prix</label>
+                   <label for="addPrix">Le prix(DH)</label>
                    <input type="text" class="form-control" id="addPrix" name="prix"  placeholder="Le prix">
                 </div>
                 <div class="form-group">
